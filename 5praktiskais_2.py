@@ -8,7 +8,7 @@ def generatearray(x, y):
             rnd_n = rnd.randint(x, y)
             multiplied_val = rnd_n * (i+1)
             row.append(multiplied_val)
-        arr.append(row)
+        arr.append(row*j+1)
     return arr
 x = 0
 y = 1000
