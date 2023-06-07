@@ -6,7 +6,8 @@ def generatearray(x, y):
         row = []
         for j in range (10):
             rnd_n = rnd.randint(x, y)
-            row.append(rnd_n * (i+1)) 
+            multiplied_val = rnd_n * (i+1)
+            row.append(multiplied_val) 
         arr.append(row)
     return arr
 x = 0
